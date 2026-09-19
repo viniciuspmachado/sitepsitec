@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psitec — Psicologia & Tecnologia | MedPrintAI</title>
+<meta name="description" content="Psitec: Psicologia e Tecnologia a serviço das pessoas. Conheça o MedPrintAI, nossa plataforma de IA e impressão 3D que converte exames DICOM em modelos anatômicos personalizados em horas.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="30" height="30" rx="8" fill="url(#g1)"/>
+          <path d="M15 6 L23 10.5 V19.5 L15 24 L7 19.5 V10.5 Z" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M7 10.5 L15 15 L23 10.5" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M15 15 V24" stroke="white" stroke-width="1.6"/>
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#7C6CF6"/>
+              <stop offset="1" stop-color="#4F46E5"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <span class="brand-text">psitec</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#medprint">MedPrintAI</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#tecnologia">Tecnologia</a>
+      <a href="#psicologia">Psicologia</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contato" class="btn btn-primary btn-sm">Fale conosco</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Psicologia &amp; Tecnologia</p>
+      <h1>Tecnologia que cuida de gente.<br>Ciência que vira <span class="text-gradient">cuidado real</span>.</h1>
+      <p class="hero-lead">
+        A Psitec nasce da união de dois olhares — o cuidado da <strong>Psicologia</strong> e a precisão da
+        <strong>Tecnologia</strong> — para transformar dados em decisões melhores na saúde. Nosso principal produto,
+        o <strong>MedPrintAI</strong>, usa Inteligência Artificial e Impressão 3D para gerar modelos anatômicos
+        personalizados a partir de exames de imagem, em horas, não em dias.
+      </p>
+      <div class="hero-cta">
+        <a href="#medprint" class="btn btn-primary">Conhecer o MedPrintAI</a>
+        <a href="#contato" class="btn btn-ghost">Solicitar demonstração</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <strong>~R$ 20 mil</strong>
+          <span>de economia estimada por caso cirúrgico¹</span>
+        </div>
+        <div class="hero-stat">
+          <strong>Horas</strong>
+          <span>do exame ao modelo 3D, não dias</span>
+        </div>
+        <div class="hero-stat">
+          <strong>3</strong>
+          <span>tecnologias integradas: IA, ML e Biomateriais</span>
+        </div>
+      </div>
+      <p class="hero-footnote">¹ Literatura clínica: redução de até 62 min de tempo de sala cirúrgica com uso de biomodelos.</p>
+    </div>
+
+    <div class="hero-visual">
+      <div class="browser-frame">
+        <div class="browser-bar">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+        </div>
+        <img src="assets/img/medprint-viewer.jpg" alt="Visualização 3D de um modelo anatômico gerado pelo MedPrintAI a partir de um exame DICOM" loading="lazy">
+      </div>
+      <div class="floating-card floating-card-1">
+        <span class="pulse-dot"></span> API Online
+      </div>
+      <div class="floating-card floating-card-2">
+        <strong>STL / GLB</strong>
+        <span>pronto para impressão</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOGOS / BRANCHES STRIP ================= -->
+<section class="branches-strip">
+  <div class="container branches-inner">
+    <div class="branch-chip">
+      <span class="branch-icon branch-icon-tech">◆</span>
+      <div>
+        <strong>Tecnologia</strong>
+        <span>IA, dados e produtos digitais para a saúde — nosso foco principal</span>
+      </div>
+    </div>
+    <div class="branch-chip">
+      <span class="branch-icon branch-icon-psi">●</span>
+      <div>
+        <strong>Psicologia</strong>
+        <span>Cuidado humano e escuta qualificada como base de tudo o que construímos</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MEDPRINT AI ================= -->
+<section id="medprint" class="section medprint-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow eyebrow-accent">Produto principal da Psitec</p>
+      <h2>MedPrintAI: da tomografia ao modelo 3D, em horas</h2>
+      <p class="section-lead">
+        O MedPrintAI converte exames <strong>DICOM, NIfTI e CT</strong> em modelos 3D digitais (<strong>STL/GLB</strong>)
+        para planejamento cirúrgico, com Inteligência Artificial treinada para preservar a fidelidade anatômica.
+        O cirurgião envia o exame, recebe o modelo pronto e imprime onde e como quiser — sem licenças caras,
+        sem depender de segmentação manual e sem esperar dias por um bureau de biomodelagem.
+      </p>
+    </div>
+
+    <!-- Problem framing -->
+    <div class="compare-grid">
+      <div class="compare-card">
+        <span class="compare-tag">Caminho 1</span>
+        <h3>Software gratuito</h3>
+        <p class="compare-price">R$ 0</p>
+        <p>3D Slicer, InVesalius, ITK-SNAP. O cirurgião segmenta manualmente a própria imagem.</p>
+        <ul class="compare-list compare-list-bad">
+          <li>Consome o tempo do cirurgião</li>
+          <li>Risco de pseudoanatomia (artefatos, formas fantasma)</li>
+          <li>Exige curva de aprendizado técnica</li>
+        </ul>
+      </div>
+      <div class="compare-card">
+        <span class="compare-tag">Caminho 2</span>
+        <h3>Bureaus tradicionais</h3>
+        <p class="compare-price">R$ 990 – R$ 9.000+</p>
+        <p>Empresas que recebem o DICOM e entregam a peça física impressa.</p>
+        <ul class="compare-list compare-list-bad">
+          <li>Preço opaco, "sob consulta"</li>
+          <li>Prazo típico de 3 a 7 dias úteis</li>
+          <li>Processo manual, pouco escalável</li>
+        </ul>
+      </div>
+      <div class="compare-card compare-card-highlight">
+        <span class="compare-tag compare-tag-highlight">MedPrintAI</span>
+        <h3>IA + impressão 3D</h3>
+        <p class="compare-price">A partir de R$ 290 <span>por caso</span></p>
+        <p>Modelo 3D digital gerado por IA, com preço transparente e entrega em horas.</p>
+        <ul class="compare-list compare-list-good">
+          <li>Fidelidade clínica validada, sem pseudoanatomia</li>
+          <li>Entrega em horas, não em dias</li>
+          <li>Sem CapEx: nenhuma licença ou impressora própria necessária</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Screenshots -->
+    <div class="screens-grid">
+      <figure class="screen-card">
+        <img src="assets/img/medprint-upload.jpg" alt="Tela de upload do MedPrintAI: arraste e solte um arquivo ZIP com exames DICOM" loading="lazy">
+        <figcaption>Envie o exame — aceita DICOM, NIfTI ou ZIP compactado</figcaption>
+      </figure>
+      <figure class="screen-card">
+        <img src="assets/img/medprint-viewer.jpg" alt="Visualizador 3D do MedPrintAI mostrando o modelo anatômico gerado, com opção de download em STL" loading="lazy">
+        <figcaption>Visualize e baixe o modelo 3D pronto para impressão</figcaption>
+      </figure>
+    </div>
+
+    <!-- Video -->
+    <div class="video-block">
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/jjsLNLTieHI"
+          title="MedPrintAI em ação — demonstração"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-caption">Veja o MedPrintAI transformando um exame de imagem em modelo 3D navegável.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMO FUNCIONA ================= -->
+<section id="como-funciona" class="section steps-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow eyebrow-accent">Fluxo do produto</p>
+      <h2>Como funciona</h2>
+      <p class="section-lead">Um pipeline automatizado, do exame bruto ao arquivo pronto para impressão.</p>
+    </div>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <span class="step-num">01</span>
+        <h3>Envie o exame</h3>
+        <p>Upload de arquivos DICOM, NIfTI ou ZIP. Arquivos individuais são compactados automaticamente.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-num">02</span>
+        <h3>IA segmenta a anatomia</h3>
+        <p>Algoritmos de segmentação (threshold ou IA) identificam estruturas ósseas e anatômicas relevantes por Hounsfield Units, com suavização gaussiana configurável.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-num">03</span>
+        <h3>Modelo 3D é gerado</h3>
+        <p>Reconstrução volumétrica em malha, com controle de qualidade: número de faces, vértices, dimensões e verificação de watertight.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-num">04</span>
+        <h3>Baixe e imprima</h3>
+        <p>Exporte em STL ou GLB, visualize em 3D com rotação e zoom, e imprima onde quiser — impressora própria ou bureau parceiro.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TECH SPECS ================= -->
+<section id="especificacoes" class="section specs-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow eyebrow-accent">Ficha técnica</p>
+      <h2>Especificações do MedPrintAI</h2>
+    </div>
+
+    <div class="specs-grid">
+      <div class="spec-item">
+        <h4>Entradas suportadas</h4>
+        <p>DICOM, NIfTI (.nii/.nii.gz) e ZIP com séries completas de TC/RM</p>
+      </div>
+      <div class="spec-item">
+        <h4>Segmentação</h4>
+        <p>Threshold por Hounsfield Units (HU) configurável + segmentação por IA (beta), com suavização gaussiana</p>
+      </div>
+      <div class="spec-item">
+        <h4>Saídas</h4>
+        <p>Malha 3D em STL e GLB, com preview ajustável (até ~150 mil faces / 100% de resolução)</p>
+      </div>
+      <div class="spec-item">
+        <h4>Controle de qualidade</h4>
+        <p>Métricas de faces, vértices, dimensões do volume (voxels) e verificação de integridade (watertight)</p>
+      </div>
+      <div class="spec-item">
+        <h4>Visualização</h4>
+        <p>Viewer 3D no navegador com wireframe, grid, câmeras predefinidas (frente, topo, isométrica etc.) e tela cheia</p>
+      </div>
+      <div class="spec-item">
+        <h4>Gestão de processos</h4>
+        <p>Dashboard com histórico de processamentos, taxa de sucesso e busca por arquivo</p>
+      </div>
+      <div class="spec-item">
+        <h4>Tecnologias centrais</h4>
+        <p>Inteligência Artificial, Machine Learning e Biomateriais biocompatíveis para a etapa de impressão física</p>
+      </div>
+      <div class="spec-item">
+        <h4>Maturidade</h4>
+        <p>TRL 3 · pedido de patente em andamento · titularidade UFPI, via NINTEC</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PARA QUEM / PERSONA ================= -->
+<section class="section persona-section">
+  <div class="container persona-grid">
+    <div class="persona-copy">
+      <p class="eyebrow eyebrow-accent">Para quem é</p>
+      <h2>Feito para o cirurgião que não pode esperar</h2>
+      <p>
+        O MedPrintAI foi desenhado para o <strong>cirurgião de maxilo, neuro e ortopedia</strong> — autônomo ou em
+        consultório — que hoje escolhe entre segmentar manualmente em software gratuito ou esperar dias por um
+        bureau de preço opaco. Com modelos anatômicos precisos em mãos antes da cirurgia, é possível pré-dobrar
+        placas de fixação, ensaiar osteotomias, produzir guias cirúrgicos e alinhar a equipe — reduzindo riscos
+        intraoperatórios e acelerando a recuperação do paciente.
+      </p>
+      <div class="ods-badges">
+        <span class="ods-badge">ODS 3 · Saúde e Bem-Estar</span>
+        <span class="ods-badge">ODS 9 · Indústria, Inovação e Infraestrutura</span>
+        <span class="ods-badge">ODS 10 · Redução das Desigualdades</span>
+      </div>
+    </div>
+    <div class="persona-metrics">
+      <div class="metric-card">
+        <strong>90%</strong>
+        <span>meta de acurácia na segmentação anatômica</span>
+      </div>
+      <div class="metric-card">
+        <strong>&lt; 48h</strong>
+        <span>meta de tempo de produção por modelo</span>
+      </div>
+      <div class="metric-card">
+        <strong>≈ 30%</strong>
+        <span>meta de redução de custos operacionais vs. métodos convencionais</span>
+      </div>
+      <div class="metric-card">
+        <strong>3+</strong>
+        <span>instituições de saúde na fase de validação</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MERCADO / POSICIONAMENTO ================= -->
+<section class="section market-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow eyebrow-accent">Posicionamento de mercado</p>
+      <h2>O espaço que ninguém ocupa no Brasil, hoje</h2>
+      <p class="section-lead">
+        O mercado brasileiro de biomodelagem é bimodal: de um lado, o "faça você mesmo" gratuito e arriscado;
+        do outro, bureaus físicos entre R$ 990 e mais de R$ 9.000, com prazo de dias. O MedPrintAI ocupa a lacuna
+        entre os dois — rápido, confiável e com preço por caso.
+      </p>
+    </div>
+
+    <div class="market-table-wrap">
+      <table class="market-table">
+        <thead>
+          <tr>
+            <th>Referência de mercado</th>
+            <th>Entrega</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Software gratuito (3D Slicer, InVesalius)</td>
+            <td>Arquivo digital — segmentação manual</td>
+            <td>R$ 0</td>
+          </tr>
+          <tr>
+            <td>Planejamento digital odontológico</td>
+            <td>Arquivo STL, sem peça física</td>
+            <td>R$ 80 – R$ 380</td>
+          </tr>
+          <tr>
+            <td>Biomodelo físico (bureau nacional)</td>
+            <td>Peça impressa, entrega em 3–7 dias úteis</td>
+            <td>R$ 990+</td>
+          </tr>
+          <tr>
+            <td>Biomodelo terceirizado (benchmark internacional)</td>
+            <td>Peça impressa pronta</td>
+            <td>~R$ 9.000</td>
+          </tr>
+          <tr class="market-row-highlight">
+            <td><strong>MedPrintAI</strong></td>
+            <td>Modelo 3D digital (STL/GLB) gerado por IA, em horas</td>
+            <td><strong>R$ 290</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="market-footnote">
+      Valores de referência com base em levantamento de mercado interno (2026) e literatura clínica; sujeitos a revisão.
+    </p>
+  </div>
+</section>
+
+<!-- ================= TECNOLOGIA (RAMO) ================= -->
+<section id="tecnologia" class="section branch-section branch-tech">
+  <div class="container branch-grid">
+    <div class="branch-copy">
+      <p class="eyebrow eyebrow-accent">Nosso foco principal</p>
+      <h2>Tecnologia</h2>
+      <p>
+        A Psitec é uma empresa de base tecnológica com raízes acadêmicas: nasce como spin-off ligado à
+        Universidade Federal do Piauí (UFPI), com apoio do Núcleo de Inovação Tecnológica (NINTEC-UFPI).
+        Aplicamos Inteligência Artificial, Aprendizado de Máquina e engenharia de software para transformar
+        pesquisa em produtos reais — com o MedPrintAI como nossa vitrine tecnológica.
+      </p>
+      <ul class="feature-list">
+        <li>Inteligência Artificial aplicada à saúde e à imagem médica</li>
+        <li>Desenvolvimento de plataformas e produtos digitais sob medida</li>
+        <li>Pesquisa aplicada, prototipagem e validação clínica</li>
+        <li>Parcerias com instituições de ensino e saúde para inovação aberta</li>
+      </ul>
+    </div>
+    <div class="branch-visual branch-visual-tech" aria-hidden="true">
+      <div class="orbit-card">
+        <span>IA</span>
+      </div>
+      <div class="orbit-card orbit-card-2">
+        <span>Machine Learning</span>
+      </div>
+      <div class="orbit-card orbit-card-3">
+        <span>Impressão 3D</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PSICOLOGIA (RAMO) ================= -->
+<section id="psicologia" class="section branch-section branch-psi">
+  <div class="container branch-grid branch-grid-reverse">
+    <div class="branch-visual branch-visual-psi" aria-hidden="true">
+      <div class="psi-blob"></div>
+    </div>
+    <div class="branch-copy">
+      <p class="eyebrow eyebrow-accent-psi">Nossa origem</p>
+      <h2>Psicologia</h2>
+      <p>
+        Antes da tecnologia, veio o cuidado. A Psitec também atua na área de Psicologia, oferecendo escuta
+        qualificada e suporte para pessoas e organizações. É esse olhar humano que orienta como desenhamos
+        cada produto tecnológico: pensando em quem vai usar, e em quem será impactado por ele — do paciente
+        ao profissional de saúde.
+      </p>
+      <ul class="feature-list feature-list-psi">
+        <li>Atendimento psicológico individual</li>
+        <li>Avaliação e acompanhamento psicológico</li>
+        <li>Consultoria em saúde mental para equipes e organizações</li>
+      </ul>
+      <a href="#contato" class="btn btn-ghost-psi">Saiba mais sobre o atendimento</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EQUIPE ================= -->
+<section id="equipe" class="section team-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow eyebrow-accent">Quem constrói</p>
+      <h2>Equipe</h2>
+      <p class="section-lead">Pesquisa aplicada, do laboratório ao produto.</p>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-card team-card-lead">
+        <div class="team-avatar">VM</div>
+        <h3>Vinicius Ponte Machado</h3>
+        <span class="team-role">Fundador &amp; Coordenador</span>
+        <p>
+          Doutor em Engenharia Elétrica e de Computação (UFRN) e Mestre em Informática Aplicada (UNIFOR).
+          Professor do Departamento de Computação da UFPI, com experiência em Inteligência Artificial aplicada
+          à saúde e coordenação de projetos de inovação.
+        </p>
+        <a href="http://lattes.cnpq.br/9385561556243194" target="_blank" rel="noopener noreferrer" class="team-link">Currículo Lattes ↗</a>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">LB</div>
+        <h3>Luis Felipe Cabral Brito</h3>
+        <span class="team-role">IA &amp; Segmentação de Imagens</span>
+        <p>Desenvolvimento dos algoritmos de segmentação e classificação de imagens médicas, modelagem e treinamento dos modelos preditivos.</p>
+        <a href="https://lattes.cnpq.br/6067992373061009" target="_blank" rel="noopener noreferrer" class="team-link">Currículo Lattes ↗</a>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">LA</div>
+        <h3>Luiz Henrique Mesquita de Aquino</h3>
+        <span class="team-role">Integração IA + Impressão 3D</span>
+        <p>Integração dos módulos de IA com o pipeline de impressão 3D, automatizando a geração de arquivos prontos para impressão.</p>
+        <a href="https://lattes.cnpq.br/2033428676351622" target="_blank" rel="noopener noreferrer" class="team-link">Currículo Lattes ↗</a>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">RF</div>
+        <h3>Ramon Matheus da Silva Fernandes</h3>
+        <span class="team-role">Interface &amp; Experiência do Usuário</span>
+        <p>Responsável pela interface de usuário e usabilidade da plataforma, testes com usuários e documentação funcional.</p>
+        <a href="https://lattes.cnpq.br/9562332103290414" target="_blank" rel="noopener noreferrer" class="team-link">Currículo Lattes ↗</a>
+      </div>
+    </div>
+
+    <div class="institution-strip">
+      <span>Universidade Federal do Piauí (UFPI)</span>
+      <span class="dot-sep">·</span>
+      <span>NINTEC-UFPI</span>
+      <span class="dot-sep">·</span>
+      <span>HU-UFPI</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section id="contato" class="section contact-section">
+  <div class="container contact-grid">
+    <div class="contact-copy">
+      <p class="eyebrow eyebrow-accent">Fale com a gente</p>
+      <h2>Vamos conversar sobre o seu caso</h2>
+      <p>
+        Quer testar o MedPrintAI, conhecer os serviços de Psicologia ou propor uma parceria?
+        Preencha o formulário ou entre em contato diretamente.
+      </p>
+      <div class="contact-info">
+        <div>
+          <strong>E-mail</strong>
+          <span>contato@psitec.com.br</span>
+        </div>
+        <div>
+          <strong>Localização</strong>
+          <span>Teresina, Piauí — Brasil</span>
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contact-form">
+      <div class="form-row">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required placeholder="Seu nome completo">
+      </div>
+      <div class="form-row">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required placeholder="voce@email.com">
+      </div>
+      <div class="form-row">
+        <label for="topic">Assunto</label>
+        <select id="topic" name="topic">
+          <option value="MedPrintAI">MedPrintAI — demonstração / dúvidas técnicas</option>
+          <option value="Psicologia">Psicologia — atendimento</option>
+          <option value="Parceria">Parceria institucional</option>
+          <option value="Outro">Outro</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Conte um pouco sobre o que você precisa"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Enviar mensagem</button>
+      <p class="form-note" id="form-note"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#top" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="30" height="30" rx="8" fill="url(#g2)"/>
+            <path d="M15 6 L23 10.5 V19.5 L15 24 L7 19.5 V10.5 Z" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M7 10.5 L15 15 L23 10.5" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M15 15 V24" stroke="white" stroke-width="1.6"/>
+            <defs>
+              <linearGradient id="g2" x1="0" y1="0" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#7C6CF6"/>
+                <stop offset="1" stop-color="#4F46E5"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="brand-text">psitec</span>
+      </a>
+      <p>Psicologia &amp; Tecnologia. MedPrintAI é o produto de tecnologia em destaque da Psitec, desenvolvido com apoio da UFPI e do NINTEC.</p>
+    </div>
+
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h5>Produto</h5>
+        <a href="#medprint">MedPrintAI</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#especificacoes">Especificações</a>
+      </div>
+      <div class="footer-col">
+        <h5>Empresa</h5>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#psicologia">Psicologia</a>
+        <a href="#equipe">Equipe</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contato</h5>
+        <a href="#contato">Fale conosco</a>
+        <a href="mailto:contato@psitec.com.br">contato@psitec.com.br</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Psitec. Todos os direitos reservados.</span>
+    <span>Teresina, Piauí — Brasil</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
