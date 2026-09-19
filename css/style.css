@@ -607,6 +607,21 @@ button { font-family: inherit; }
 .branch-tech { background: var(--bg); }
 .branch-psi { background: linear-gradient(180deg, var(--bg-alt), var(--bg)); }
 
+.psi-professional {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  margin-bottom: 24px;
+}
+.psi-professional h3 { font-size: 1rem; margin-bottom: 2px; }
+.psi-professional p { font-size: 0.85rem; margin-bottom: 0; }
+.team-avatar-psi { background: linear-gradient(135deg, var(--psi-1), var(--psi-2)); flex-shrink: 0; margin-bottom: 0; }
+.team-role-psi { color: var(--psi-1); }
+
 .branch-visual { position: relative; height: 320px; }
 .orbit-card {
   position: absolute;
