@@ -38,7 +38,7 @@
       var topic = form.topic.value;
       var message = form.message.value.trim();
 
-      var subject = encodeURIComponent("[Psitec] " + topic + " — contato de " + name);
+      var subject = encodeURIComponent("[PSITEC] " + topic + " — contato de " + name);
       var body = encodeURIComponent(
         "Nome: " + name + "\n" +
         "E-mail: " + email + "\n" +
